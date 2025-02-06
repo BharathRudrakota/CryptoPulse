@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import teamImg from "../assets/team.jpg"; // Replace with actual image path
-import securityImg from "../assets/security.jpg"; // Replace with actual image path
+import Security from "../assets/Security.jpg" // Replace with actual image path
 
 const About = () => {
   return (
@@ -68,7 +68,7 @@ const About = () => {
       {/* Security & Trust */}
       <section className="about-section">
         <div className="security-content">
-          <img src={securityImg} alt="Security" className="security-img" />
+          <img src={Security} alt="Security" className="security-img" />
           <div className="security-text">
             <h2>🔒 Security & Trust</h2>
             <p>
