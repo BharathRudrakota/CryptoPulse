@@ -1,0 +1,111 @@
+/* Contact Page Styles */
+.contact-container {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding-bottom: 50px;
+  }
+  
+  /* Hero Section */
+  .contact-hero {
+    background: url('../assets/contact-bg.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+  }
+  
+  .contact-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Form */
+  .contact-form-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Details */
+  .contact-details {
+    padding: 50px;
+    text-align: center;
+    background: #f8f9fa;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+  }
+  
+  .info-box h3 {
+    color: #007bff;
+  }
+  
+  /* Google Maps */
+  .map-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .map-section iframe {
+    border-radius: 10px;
+  }
+  

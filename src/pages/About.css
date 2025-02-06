@@ -1,0 +1,118 @@
+/* About Page Styles */
+.about-container {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding-bottom: 50px;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: url('../assets/crypto-bg.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Sections */
+  .about-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    background: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+  }
+  
+  .feature h3 {
+    color: #007bff;
+  }
+  
+  /* Team Section */
+  .team-section {
+    background: white;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  .team-member h3 {
+    margin-top: 10px;
+  }
+  
+  /* Security Section */
+  .security-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #f8f9fa;
+  }
+  
+  .security-img {
+    width: 40%;
+    min-width: 300px;
+  }
+  
+  .security-text {
+    width: 50%;
+    min-width: 300px;
+  }
+  
+  .security-text h2 {
+    color: #007bff;
+  }
+  

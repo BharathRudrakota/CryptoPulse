@@ -1,0 +1,33 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #1a1a2e; /* Dark background for navbar */
+  }
+  
+  /* Default nav-link styles */
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Highlight the active page with blue color */
+  .navbar .nav-link.active-link {
+    color: #007bff !important;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Hover effect */
+  .navbar .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  /* Responsive toggler icon color */
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
